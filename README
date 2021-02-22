@@ -1,0 +1,39 @@
+# Project 04
+
+Ethan Mok (811-383-355),Jake Alford (810-160-836)
+    
+## Instructions
+
+To compile our code, type:
+
+```
+$ make compile
+```
+
+To run our code (after compiling it), type:
+
+```
+$ make run 
+```
+
+/To clean our code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+##Optional Quote(s)
+
+May the force be with you.
+Hodor.
+Zoey is Awesome!
+Hello there.
+
+## Timing differences
+Step 1 is much slower than step 2 as file sizes increase.
+    We believe this is because reading byte by byte as in
+    step 1 would incur massive I/O costs since it is an
+    time-expensive process while step two does all of the
+    I/O at once into the dynamically defined array and can do
+    the computation into memory which is orders of magnitude
+    faster that I/O.
